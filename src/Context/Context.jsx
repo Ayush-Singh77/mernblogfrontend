@@ -4,7 +4,7 @@ import { Toaster } from "react-hot-toast";
 
 const AppContext = createContext();
 
-export const server = "https://blogserver-wmlt.onrender.com/api";
+export const server = "https://mernblogserver-h060.onrender.com/api";
 
 export const AppContextProvider = ({ children }) => {
   const [user, setUser] = useState([]);
